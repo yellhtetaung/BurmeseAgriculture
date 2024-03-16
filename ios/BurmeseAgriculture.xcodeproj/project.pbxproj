@@ -14,6 +14,15 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-BurmeseAgriculture-BurmeseAgricultureTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-BurmeseAgriculture-BurmeseAgricultureTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		58D1D11E940448508CD1A91E /* NotoSansMyanmar-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53054DD1A8E74C0B890B3BC6 /* NotoSansMyanmar-Black.ttf */; };
+		BCA1E4B884194D54A4D42D43 /* NotoSansMyanmar-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9802CD1FED1345D6A8D32CEF /* NotoSansMyanmar-Bold.ttf */; };
+		9F19853E40D640868655B39C /* NotoSansMyanmar-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 003458D67F704622BDA069D3 /* NotoSansMyanmar-ExtraBold.ttf */; };
+		03C908E3E16747619589740A /* NotoSansMyanmar-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A48A09584C34427AB7FCFF59 /* NotoSansMyanmar-ExtraLight.ttf */; };
+		0482C065FB5C4DB6B78F00F4 /* NotoSansMyanmar-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6BBDB1359FCD4D709190AC2F /* NotoSansMyanmar-Light.ttf */; };
+		BBAEBDA3D6164FAC8805D2AB /* NotoSansMyanmar-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F92E594D8A754815BDB28891 /* NotoSansMyanmar-Medium.ttf */; };
+		3B6129F900B74872857A3A86 /* NotoSansMyanmar-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8AE4F566E6554E4087315727 /* NotoSansMyanmar-Regular.ttf */; };
+		542EF989CC444273B413AFD1 /* NotoSansMyanmar-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1971F22656E4CC7BBDE91EE /* NotoSansMyanmar-SemiBold.ttf */; };
+		18897CDC5EE0426597E0F382 /* NotoSansMyanmar-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1C86C568A07B4156BFEED4D5 /* NotoSansMyanmar-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = BurmeseAgriculture/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-BurmeseAgriculture-BurmeseAgricultureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurmeseAgriculture-BurmeseAgricultureTests.release.xcconfig"; path = "Target Support Files/Pods-BurmeseAgriculture-BurmeseAgricultureTests/Pods-BurmeseAgriculture-BurmeseAgricultureTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		53054DD1A8E74C0B890B3BC6 /* NotoSansMyanmar-Black.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Black.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9802CD1FED1345D6A8D32CEF /* NotoSansMyanmar-Bold.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Bold.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		003458D67F704622BDA069D3 /* NotoSansMyanmar-ExtraBold.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-ExtraBold.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A48A09584C34427AB7FCFF59 /* NotoSansMyanmar-ExtraLight.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-ExtraLight.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6BBDB1359FCD4D709190AC2F /* NotoSansMyanmar-Light.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Light.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F92E594D8A754815BDB28891 /* NotoSansMyanmar-Medium.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Medium.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8AE4F566E6554E4087315727 /* NotoSansMyanmar-Regular.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Regular.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1971F22656E4CC7BBDE91EE /* NotoSansMyanmar-SemiBold.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-SemiBold.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1C86C568A07B4156BFEED4D5 /* NotoSansMyanmar-Thin.ttf */ = {isa = PBXFileReference; name = "NotoSansMyanmar-Thin.ttf"; path = "../src/assets/fonts/NotoSansMyanmar-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +140,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BE9C802824F648DF862E3CB3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +166,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		BE9C802824F648DF862E3CB3 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				53054DD1A8E74C0B890B3BC6 /* NotoSansMyanmar-Black.ttf */,
+				9802CD1FED1345D6A8D32CEF /* NotoSansMyanmar-Bold.ttf */,
+				003458D67F704622BDA069D3 /* NotoSansMyanmar-ExtraBold.ttf */,
+				A48A09584C34427AB7FCFF59 /* NotoSansMyanmar-ExtraLight.ttf */,
+				6BBDB1359FCD4D709190AC2F /* NotoSansMyanmar-Light.ttf */,
+				F92E594D8A754815BDB28891 /* NotoSansMyanmar-Medium.ttf */,
+				8AE4F566E6554E4087315727 /* NotoSansMyanmar-Regular.ttf */,
+				B1971F22656E4CC7BBDE91EE /* NotoSansMyanmar-SemiBold.ttf */,
+				1C86C568A07B4156BFEED4D5 /* NotoSansMyanmar-Thin.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +279,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				58D1D11E940448508CD1A91E /* NotoSansMyanmar-Black.ttf in Resources */,
+				BCA1E4B884194D54A4D42D43 /* NotoSansMyanmar-Bold.ttf in Resources */,
+				9F19853E40D640868655B39C /* NotoSansMyanmar-ExtraBold.ttf in Resources */,
+				03C908E3E16747619589740A /* NotoSansMyanmar-ExtraLight.ttf in Resources */,
+				0482C065FB5C4DB6B78F00F4 /* NotoSansMyanmar-Light.ttf in Resources */,
+				BBAEBDA3D6164FAC8805D2AB /* NotoSansMyanmar-Medium.ttf in Resources */,
+				3B6129F900B74872857A3A86 /* NotoSansMyanmar-Regular.ttf in Resources */,
+				542EF989CC444273B413AFD1 /* NotoSansMyanmar-SemiBold.ttf in Resources */,
+				18897CDC5EE0426597E0F382 /* NotoSansMyanmar-Thin.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
