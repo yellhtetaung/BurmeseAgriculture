@@ -13,6 +13,8 @@ import PostDetails from 'screens/PostDetails';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import {colors} from '../libs/styles';
+import {TouchableOpacity} from 'react-native';
+import Search from 'screens/Search';
 
 const Stack = createStackNavigator();
 
@@ -32,9 +34,18 @@ const loginScreenOptions: StackNavigationOptions = {
   headerShown: false,
 };
 
-const homeScreenOptions: StackNavigationOptions = {
+const homeScreenOptions = (navigation: any): StackNavigationOptions => ({
   headerTitle: 'Burmese Agriculture',
-};
+  headerRight: () => (
+    <TouchableOpacity onPress={() => navigation.navigate('Search')}>
+      <Ionicons name="search" size={25} color={colors.white} />
+    </TouchableOpacity>
+  ),
+  headerRightContainerStyle: {
+    flex: 1,
+    paddingHorizontal: 20,
+  },
+});
 
 export default function StackNavigation() {
   return (
@@ -44,8 +55,13 @@ export default function StackNavigation() {
         component={Login}
         options={loginScreenOptions}
       />
-      <Stack.Screen name="Home" component={Home} options={homeScreenOptions} />
+      <Stack.Screen
+        name="Home"
+        component={Home}
+        options={({navigation}) => homeScreenOptions(navigation)}
+      />
       <Stack.Screen name="PostDetails" component={PostDetails} />
+      <Stack.Screen name="Search" component={Search} />
     </Stack.Navigator>
   );
 }

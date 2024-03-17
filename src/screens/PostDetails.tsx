@@ -5,7 +5,6 @@ import data from 'libs/data';
 import {Post} from 'types/types';
 import {colors} from 'libs/styles';
 
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
 interface PostDetailsProps {
@@ -29,11 +28,14 @@ export default function PostDetails({route, navigation}: PostDetailsProps) {
       <Image source={post?.Image} style={styles.coverImage} />
 
       <View style={styles.bodyContainer}>
-        <Text style={styles.title}>{post.Title}</Text>
+        <View style={[styles.flexRowContainer]}>
+          <AntDesign name="book" size={25} color={colors.green} />
+          <Text style={styles.title}>{post.Title}</Text>
+        </View>
 
         <View style={styles.infoContainer}>
           <View style={styles.flexRowContainer}>
-            <FontAwesome name="book" size={25} color={colors.green} />
+            <AntDesign name="user" size={25} color={colors.green} />
             <Text style={styles.infoContent}>{post.Author}</Text>
           </View>
 
@@ -66,10 +68,12 @@ const styles = StyleSheet.create({
   bodyContainer: {
     flex: 1,
     padding: 10,
+    paddingVertical: 20,
   },
 
   title: {
-    fontSize: 18,
+    flex: 1,
+    fontSize: 16,
     fontFamily: 'NotoSansMyanmar-Bold',
     color: colors.dark,
   },
@@ -96,6 +100,7 @@ const styles = StyleSheet.create({
   },
 
   content: {
+    flex: 1,
     fontFamily: 'NotoSansMyanmar-Regular',
     fontSize: 16,
     color: colors.dark,

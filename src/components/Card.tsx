@@ -2,7 +2,7 @@ import React, {memo} from 'react';
 import {Image, StyleSheet, Text, View, TouchableOpacity} from 'react-native';
 import {Post} from 'types/types';
 import {colors} from 'libs/styles';
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+
 import AntDesign from 'react-native-vector-icons/AntDesign';
 
 interface CardTitleProps {
@@ -40,7 +40,7 @@ function Card({
 
       <View style={styles.cardFooter}>
         <View style={styles.footerItem}>
-          <FontAwesome name="book" size={20} color={colors.green} />
+          <AntDesign name="user" size={20} color={colors.green} />
           {!Author && <Text style={styles.footerItemContent}>အမည်မသိ</Text>}
           {Author && (
             <Text style={styles.footerItemContent}>
